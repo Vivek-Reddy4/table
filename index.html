@@ -1,0 +1,67 @@
+<!DOCTYPE html> <!--it shows the version html5-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  <!--for browsing-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Table</title>   <!--for adding title of webpage-->
+
+    <link rel="stylesheet" href="style.css"> <!--for linking external css file-->
+</head>
+<body>
+    <!--table starts here-->
+    <!--boder for table, padding=btw content and border-->
+    <table border="1" cellpadding="6px" >
+
+    <!--caption as heading of table-->
+       <caption>Student details:</caption>
+
+    <!--colspan which occupies space of given number of coloumns-->
+       <tr id="cs">
+        <th colspan="5">public school </th>
+       </tr>
+
+    <!--rowspan which occupies space of given number of rows-->
+       <tr id="rs">
+        <th rowspan="5">all info </th>
+       </tr>
+
+    <!--tr=table row , th=table heading  coloumn wise-->
+        <tr class="f-row">
+            <th>Name</th>
+            <th>Emial</th>
+            <th>Section</th>
+            <th>Ph.number</th>
+        </tr>
+
+    <!--tr=table row , td=table data  coloumn wise-->
+        <tr class="s-row">
+            <td>Jhon</td>
+            <td>jhon@gmail.com</td>
+            <td>A</td>
+            <td>123</td>
+        </tr>
+
+        <tr class="t-row">
+            <td>Boult</td>
+            <td>boult@gmail.com</td>
+            <td>B</td>
+            <td>234</td>
+        </tr>
+        <tr class="l-row">
+            <td >Adam</td>
+            <td>adam@gmail.com</td>
+            <td>C</td>
+            <td>345</td>
+        </tr>
+
+    <!--colspan which occupies space of given number of coloumns ex:-it occ 5 colmns-->
+        <tr id="csl">
+            <th colspan="5">total=3 students </th>
+           </tr>
+
+    </table>
+    <!--table ends here-->
+
+</body>
+</html>

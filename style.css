@@ -1,0 +1,34 @@
+
+table{
+    border-collapse: collapse; /*boder lines will be one */
+    text-align: center;  /* to set text center*/
+    font-size: 20px;
+    position: absolute;  /*to set table at center of display top,left,trans*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer; 
+}
+
+#cs{
+    background-color: antiquewhite;  /* to add bg color*/
+}
+.f-row{
+    background-color: aquamarine;   /* to add bg color*/
+}
+.s-row{
+    background-color: aquamarine;   /* to add bg color*/
+}
+.t-row{
+    background-color: aquamarine;   /* to add bg color*/
+}
+.l-row{
+    background-color: aquamarine;   /* to add bg color*/
+}
+#rs{
+    background-color: rgb(252, 211, 252);  /* to add bg color*/
+}
+#csl{
+    background-color: rgb(164, 213, 244);  /* to add bg color*/
+
+}
